@@ -28,13 +28,14 @@
 
 #define LINKTYPE_MCTP 291 /* 0x0123*/
 
-
 /* PCI data Object Exchange (DOE) is defined in PCI-SIG data Object Exchange (DOE) ECN
  * (https://members.pcisig.com/wg/PCI-SIG/document/14143) 6.xx.1 data Objects.*/
 
 /* It starts with DOE data Object header 1 in Figure 6-x1: DOE data Object format.*/
 
 #define LINKTYPE_PCI_DOE 292 /* 0x0124*/
+
+#define LINKTYPE_VTPM 293 /* 0x0125*/
 
 #pragma pack()
 
